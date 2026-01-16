@@ -17,8 +17,8 @@ During development, I also used **AI tools as a learning and productivity aid**�
 ---
 
 ## 🚀 Live Website
-👉 **Live Demo:** https://your-live-link-here  
-👉 **GitHub Repository:** https://github.com/your-username/FUTURE_FS_01  
+👉 **Live Demo:**https://future-fs-01-portfolio-beryl.vercel.app 
+👉 **GitHub Repository:** https://github.com/Surajkumavat437/FUTURE_FS_01
 
 ---
 
@@ -84,10 +84,10 @@ Screenshots of the website UI and features are available in the `/screenshots` f
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/FUTURE_FS_01.git
+git clone https://github.com/Surajkumavat437/FUTURE_FS_01
 
 # Navigate into the project directory
-cd FUTURE_FS_01
+cd Fportfolio
 
 # Install dependencies
 npm install
