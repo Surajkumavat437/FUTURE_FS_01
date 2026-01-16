@@ -87,7 +87,7 @@ Screenshots of the website UI and features are available in the `/screenshots` f
 git clone https://github.com/Surajkumavat437/FUTURE_FS_01
 
 # Navigate into the project directory
-cd Fportfolio
+cd portfolio
 
 # Install dependencies
 npm install
