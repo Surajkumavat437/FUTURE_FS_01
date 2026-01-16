@@ -23,12 +23,12 @@ During development, I also used **AI tools as a learning and productivity aid**�
 ---
 
 ##  Key Features
-✔ Responsive and modern UI  
-✔ Smooth animations and interactive sections  
-✔ Projects showcase section  
-✔ Contact form with email notifications  
-✔ SEO-friendly structure  
-✔ Fast performance using Vite  
+ Responsive and modern UI  
+ Smooth animations and interactive sections  
+ Projects showcase section  
+ Contact form with email notifications  
+ SEO-friendly structure  
+ Fast performance using Vite  
 
 ---
 
