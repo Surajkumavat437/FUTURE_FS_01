@@ -66,7 +66,7 @@ const About = () => {
           </p>
 
           {/* Tech stack */}
-          <div className="grid grid-cols-4 sm:grid-cols-6 gap-6 mb-10 opacity-80">
+          <div className="grid grid-cols-4 sm:grid-cols-6 gap-6 mb-10 opacity-80 mr-5">
             {[
               "html",
               "css3",
@@ -91,7 +91,7 @@ const About = () => {
           </div>
 
           {/* Points */}
-          <ul className="space-y-4 text-gray-300">
+          <ul className="space-y-4 text-gray-300 mr-6">
             {[
               "Develop complete web applications with authentication, APIs, and database integration",
               "Work on real-world projects while following structured and maintainable coding practices",

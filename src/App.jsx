@@ -11,16 +11,17 @@ function App() {
     <>
       <Navbar />
 
-      <main className="bg-[#07070A] min-h-full">
+      <main className="bg-[#07070A] min-h-full overflow-x-hidden">
         <Hero />
         <About />
         <Skills />
         <Projects />
-        <Education/>
+        <Education />
         <Contact />
       </main>
     </>
   );
 }
+
 
 export default App;

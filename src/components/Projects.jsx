@@ -20,12 +20,12 @@ const Projects = () => {
       id="projects"
       className="min-h-screen bg-[#07070A] text-white flex items-center overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center w-full">
 
         {/* LEFT */}
-        <div>
-          <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+        <div className="w-full">
+          <div className="mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-[#7C7CFF]">
                 Projects
               </span>
@@ -35,8 +35,8 @@ const Projects = () => {
             </p>
           </div>
 
-          {/* Project 1 */}
-          <div className="project-card mb-8 border border-white/10 rounded-xl p-6
+          {/* Project Card */}
+          <div className="project-card mb-8 w-full border border-white/10 rounded-xl p-6
                           hover:border-[#7C7CFF]/40
                           hover:shadow-[0_0_30px_rgba(124,124,255,0.15)]
                           transition will-change-transform">
@@ -50,10 +50,11 @@ const Projects = () => {
             </p>
 
             <div className="flex flex-wrap gap-2 text-sm text-gray-300 mb-4">
-              <span className="border border-white/10 px-3 py-1 rounded-full">Node.js</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">Express</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">MongoDB</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">EJS</span>
+              {["Node.js", "Express", "MongoDB", "EJS"].map(t => (
+                <span key={t} className="border border-white/10 px-3 py-1 rounded-full">
+                  {t}
+                </span>
+              ))}
             </div>
 
             <a
@@ -66,8 +67,8 @@ const Projects = () => {
             </a>
           </div>
 
-          {/* Project 2 */}
-          <div className="project-card border border-white/10 rounded-xl p-6
+          {/* Project Card 2 */}
+          <div className="project-card w-full border border-white/10 rounded-xl p-6
                           hover:border-[#7C7CFF]/40
                           hover:shadow-[0_0_30px_rgba(124,124,255,0.15)]
                           transition will-change-transform">
@@ -81,10 +82,11 @@ const Projects = () => {
             </p>
 
             <div className="flex flex-wrap gap-2 text-sm text-gray-300 mb-4">
-              <span className="border border-white/10 px-3 py-1 rounded-full">Node.js</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">Express</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">MongoDB</span>
-              <span className="border border-white/10 px-3 py-1 rounded-full">Leaflet</span>
+              {["Node.js", "Express", "MongoDB", "Leaflet"].map(t => (
+                <span key={t} className="border border-white/10 px-3 py-1 rounded-full">
+                  {t}
+                </span>
+              ))}
             </div>
 
             <a
@@ -98,10 +100,10 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* RIGHT */}
-        <div className="projects-visual relative flex justify-center will-change-transform">
-          <div className="absolute w-105 h-105 bg-[#7C7CFF]/20 blur-[140px] rounded-full" />
-          <div className="w-90 md:w-120 aspect-square">
+        {/* RIGHT (STACKS BELOW ON MOBILE) */}
+        <div className="projects-visual relative flex justify-center mt-12 lg:mt-0">
+          <div className="absolute inset-0 max-w-full bg-[#7C7CFF]/20 blur-[120px] rounded-full" />
+          <div className="w-64 sm:w-72 md:w-96 aspect-square max-w-full">
             <DotLottieReact
               src="https://lottie.host/23f9e94f-ddcd-49f2-bcce-2eda2204b3eb/uYglqR6xPW.lottie"
               autoplay
