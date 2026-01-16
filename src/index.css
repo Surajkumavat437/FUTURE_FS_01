@@ -30,4 +30,13 @@ body,
   width: 100%;
 }
 
+body::before {
+  content: "CSS-OK";
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: red;
+  font-size: 14px;
+  z-index: 9999;
+}
 
