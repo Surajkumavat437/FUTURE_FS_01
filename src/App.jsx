@@ -18,6 +18,10 @@ function App() {
         <Projects />
         <Education />
         <Contact />
+        <p className="fixed bottom-2 right-2 z-[9999] text-red-500 text-xs">
+  BUILD-LATEST
+</p>
+
       </main>
     </>
   );
