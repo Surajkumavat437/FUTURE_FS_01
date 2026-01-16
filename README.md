@@ -1,12 +1,12 @@
 # Personal Portfolio Website – Task 1 (FS)
 
-## 📌 Internship Track
+##  Internship Track
 **Full Stack Web Development (FS)**  
 **Organization:** Future Interns  
 
 ---
 
-## 🧑‍💻 About the Project
+##  About the Project
 This project is my personal portfolio website developed as part of **Task 1** of the *Future Interns Full Stack Web Development Internship*.
 
 The main goal of this project is to create a clean, modern, and responsive portfolio to showcase my skills, projects, and profile.  
@@ -16,13 +16,13 @@ During development, I also used **AI tools as a learning and productivity aid**�
 
 ---
 
-## 🚀 Live Website
-👉 **Live Demo:**https://future-fs-01-portfolio-beryl.vercel.app 
-👉 **GitHub Repository:** https://github.com/Surajkumavat437/FUTURE_FS_01
+##  Live Website
+ **Live Demo:**https://future-fs-01-portfolio-beryl.vercel.app 
+ **GitHub Repository:** https://github.com/Surajkumavat437/FUTURE_FS_01
 
 ---
 
-## ✨ Key Features
+##  Key Features
 ✔ Responsive and modern UI  
 ✔ Smooth animations and interactive sections  
 ✔ Projects showcase section  
@@ -32,7 +32,7 @@ During development, I also used **AI tools as a learning and productivity aid**�
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React.js** – Component-based UI development
@@ -52,7 +52,7 @@ During development, I also used **AI tools as a learning and productivity aid**�
 
 ---
 
-## 📦 Dependencies Explanation
+##  Dependencies Explanation
 
 | Dependency | Purpose |
 |----------|--------|
@@ -66,21 +66,14 @@ During development, I also used **AI tools as a learning and productivity aid**�
 | vite | Development server and build tool |
 | eslint | Helps maintain code quality |
 
----
-
-## 📸 Screenshots
-Screenshots of the website UI and features are available in the `/screenshots` folder.
-
----
-
-## 📈 SEO Optimization
+## SEO Optimization
 - Proper `<title>` and meta descriptions
 - Semantic HTML structure
 - Optimized layout for better search engine visibility
 
 ---
 
-## 🧪 How to Run the Project Locally
+##  How to Run the Project Locally
 
 ```bash
 # Clone the repository
